@@ -188,5 +188,14 @@ h2{
 
 .linkedin:hover{
     transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 6px 18px rgba(77, 220, 33, 0.15);
+    box-shadow: 0 6px 28px rgba(220, 8, 100);
+}
+
+.resume{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume:hover{
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 6px 28px rgb(167, 13, 133);
 }
