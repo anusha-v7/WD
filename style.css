@@ -168,6 +168,16 @@ h2{
     transition: transfrom 0.3s ease,box-shadow 0.3s ease;
     box-shadow: 0 6px 20px rgb(215, 81, 193);
 }
+
+.goal{
+    font-size: 40px;
+}
+
+.goal h4:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+    box-shadow: 0 6px 20px rgb(215, 81, 193);
+}
 .tech p{
     font-size: 40px;
     margin-top: 10px;
