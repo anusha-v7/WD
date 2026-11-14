@@ -123,7 +123,15 @@ h2{
     object-fit: cover;
     box-shadow:  8px 25px rgba(11, 165, 68, 0.05);
     border: 5px solid white ;
+    transition: transfrom  0.1s ease-in;
+     
     
+}
+
+.pic:hover{
+    transform: scale(1.08);
+    box-shadow:  15px 25px 25px rgb(193, 63, 193),
+                 -15px -25px 25px rgb(193, 63, 193);
 }
 
 .about{
@@ -142,11 +150,13 @@ h2{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .contain img:hover{
     transform:scale(1.2);
     transition: transform 0.2s ease,box-shadow 0.3s ease;
+    border-radius: 50px;
 }
 
 .abt{
