@@ -216,3 +216,9 @@ h2{
     background-color: black;
     color: wheat;
 }
+
+.cont h2:hover{
+    transform: scale(1.2);
+    padding: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
