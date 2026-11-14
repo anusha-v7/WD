@@ -193,6 +193,11 @@ h2{
     margin-bottom: 10px;
 }
 
+.hack h4:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 20px rgb(215, 81, 193); ;
+}
 .hack p{
     font-size: 40px;
 
@@ -238,3 +243,6 @@ h2{
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
+.goal p{
+    margin-bottom: 20px;
+}
