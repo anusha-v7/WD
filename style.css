@@ -137,15 +137,17 @@ h2{
 .about{
     padding: 100px 10%;
     display: flex;
+   
 }
 
 .contain{
-    width: 550px;
-    height: 500px;
+    width: 850px;
+    height: 550px;
     box-shadow: 20px 20px 10px rgba(122, 6, 6, 0.6),
                 -20px -20px 10px rgba(122, 6, 6, 0.6) ;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 
 .contain img{
@@ -176,7 +178,7 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .tech h4{
@@ -272,7 +274,7 @@ h2{
 }
 
 .carrer{
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .carrer h4:hover{
