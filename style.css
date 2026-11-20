@@ -144,6 +144,8 @@ h2{
     height: 500px;
     box-shadow: 20px 20px 10px rgba(122, 6, 6, 0.6),
                 -20px -20px 10px rgba(122, 6, 6, 0.6) ;
+    justify-content: center;
+    align-items: center;
 }
 
 .contain img{
@@ -151,6 +153,7 @@ h2{
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+   
 }
 
 .contain img:hover{
@@ -266,4 +269,14 @@ h2{
 
 .about{
     background-color: rgb(229, 175, 175);
+}
+
+.carrer{
+    font-size: 32px;
+}
+
+.carrer h4:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+    box-shadow: 0 6px 20px rgb(215, 81, 193);
 }
