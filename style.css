@@ -307,7 +307,7 @@ h2{
 }
 
 .skills h1 {
-    font-size: 42px;
+    font-size: 72px;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 15px;
@@ -315,9 +315,17 @@ h2{
 }
 
 .skills p {
-    font-size: 16px;
+    font-size: 56px;
     color: #a5acc4;
     line-height: 1.7;
+}
+
+.skills p:hover{
+    font-size: 58px;
+    color: #b69aff;
+    text-shadow: 0 0 15px #7956c9;
+    transition: 0.3s ease;
+    
 }
 
 /* Heading hover effect */
@@ -326,6 +334,7 @@ h2{
     color: #b69aff;
     text-shadow: 0 0 15px #7956c9;
     transition: 0.3s ease;
+    font-size: 78px;
 }
 
 /* ==============================
@@ -522,11 +531,9 @@ h2{
     box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
 }
 
-/* ==============================
-   RESPONSIVE DESIGN
-============================== */
+ 
 
-/* Tablets */
+ 
 
 @media (max-width: 900px) {
 
