@@ -298,7 +298,7 @@ h2{
 /* Frontend heading */
 .contain h1 {
     color: white;
-    font-size: 28px;
+    font-size: 85px;
     margin: 0;
     text-align: center;
     padding-bottom: 25px;
@@ -364,4 +364,46 @@ h2{
     background: #202747;
     border-color: #A78BFA;
     box-shadow: 0 5px 20px rgba(139, 92, 246, 0.3);
+}
+
+
+.skills {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 30px 20px;
+}
+
+/* Main heading */
+.skills h1 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+    transition: 0.3s ease;
+}
+
+/* Heading hover */
+.skills h1:hover {
+    color: #A78BFA;
+    transform: scale(1.05);
+    text-shadow: 0 0 15px rgba(139, 92, 246, 0.6);
+}
+
+/* Description */
+.skills p {
+    color: #B8B8D1;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto;
+
+    transition: 0.3s ease;
+}
+
+/* Description hover */
+.skills p:hover {
+    color: #FFFFFF;
+    transform: translateY(-3px);
 }
