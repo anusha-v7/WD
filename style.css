@@ -604,3 +604,165 @@ h2{
     }
 
 }
+
+
+/* =================================
+   PROGRAMMING LANGUAGES & TOOLS
+================================= */
+
+/* Programming Languages Box */
+
+.skill .programming-box {
+    background: linear-gradient(
+        145deg,
+        #171d35,
+        #101629
+    );
+
+    border: 1px solid rgba(145, 112, 255, 0.35);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    transition: all 0.35s ease;
+}
+
+/* Programming Box Hover */
+
+.skill .programming-box:hover {
+    transform: translateY(-7px);
+
+    border-color: #a78bfa;
+
+    box-shadow:
+        0 0 15px rgba(139, 92, 246, 0.25),
+        0 0 30px rgba(59, 130, 246, 0.15);
+}
+
+
+/* Programming Languages Heading */
+
+.skill .programming-box h2 {
+    color: #c4b5fd;
+
+    text-align: center;
+
+    font-size: 23px;
+
+    margin-bottom: 28px;
+}
+
+
+/* Programming Languages Cards */
+
+.skill .programming-box .frontend {
+    background: #202944;
+
+    border: 1px solid rgba(139, 92, 246, 0.3);
+
+    border-radius: 15px;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Programming Logos */
+
+.skill .programming-box .frontend img {
+    width: 55px;
+    height: 55px;
+
+    object-fit: contain;
+}
+
+
+/* Programming Names */
+
+.skill .programming-box .frontend span {
+    color: #ffffff;
+
+    font-size: 15px;
+
+    font-weight: 600;
+}
+
+
+/* Programming Card Hover */
+
+.skill .programming-box .frontend:hover {
+    transform: translateY(-8px) scale(1.04);
+
+    background: #292f50;
+
+    border-color: #a78bfa;
+
+    box-shadow:
+        0 0 20px rgba(139, 92, 246, 0.4);
+}
+
+
+/* =================================
+   TOOLS BOX
+================================= */
+
+.skill .tools-box {
+    background: linear-gradient(
+        145deg,
+        #171d35,
+        #101629
+    );
+
+    border: 1px solid rgba(59, 130, 246, 0.35);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    transition: all 0.35s ease;
+}
+
+
+/* Tools Box Hover */
+
+.skill .tools-box:hover {
+    transform: translateY(-7px);
+
+    border-color: #60a5fa;
+
+    box-shadow:
+        0 0 15px rgba(59, 130, 246, 0.25),
+        0 0 30px rgba(59, 130, 246, 0.15);
+}
+
+
+/* Tools Heading */
+
+.skill .tools-box h2 {
+    color: #93c5fd;
+
+    text-align: center;
+
+    font-size: 23px;
+
+    margin-bottom: 28px;
+}
+
+
+/* =================================
+   RESPONSIVE DESIGN
+================================= */
+
+@media (max-width: 650px) {
+
+    .skill .programming-box,
+    .skill .tools-box {
+        padding: 22px 15px;
+    }
+
+    .skill .programming-box .frontend img {
+        width: 45px;
+        height: 45px;
+    }
+
+}
