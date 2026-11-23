@@ -282,3 +282,37 @@ h2{
     transition: transform 0.3s ease,box-shadow 0.3s ease;
     box-shadow: 0 6px 20px rgb(215, 81, 193);
 }
+
+.contain{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.frontend{
+    width: 120px;
+    height: 120px;
+    background: #171D35;
+    border: 1px solid #45418A;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s ease;
+}
+
+.frontend img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+
+}
+
+.frontend span{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
