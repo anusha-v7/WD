@@ -316,3 +316,9 @@ h2{
     font-size: 20px;
     font-weight: 600;
 }
+
+.frontend:hover {
+    transform: translateY(-6px);
+    border-color: #8B5CF6;
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.4);
+}
