@@ -291,29 +291,29 @@ h2{
 }
 
 .frontend{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     background: #171D35;
     border: 1px solid #45418A;
-    border-radius: 15px;
+    border-radius: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     transition: 0.3s ease;
 }
 
 .frontend img{
-    width: 75px;
-    height: 75px;
+    width: 120px;
+    height: 120px;
     object-fit: contain;
 
 }
 
 .frontend span{
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -321,4 +321,11 @@ h2{
     transform: translateY(-6px);
     border-color: #8B5CF6;
     box-shadow: 0 0 15px rgba(139, 92, 246, 0.4);
+}
+
+.contain h3{
+    width: 100%;
+    color: #A78BFA;
+    font-size: 22px;
+    margin: 0 0 10px 0;
 }
