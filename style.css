@@ -376,8 +376,8 @@ h2{
 
 /* Main heading */
 .skills h1 {
-    color: #FFFFFF;
-    font-size: 42px;
+    color: #b91c1c;
+    font-size: 70px;
     font-weight: 700;
     margin-bottom: 15px;
 
@@ -393,8 +393,8 @@ h2{
 
 /* Description */
 .skills p {
-    color: #B8B8D1;
-    font-size: 18px;
+    color: #5858af;
+    font-size: 58px;
     line-height: 1.7;
     max-width: 600px;
     margin: 0 auto;
