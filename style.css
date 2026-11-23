@@ -283,49 +283,85 @@ h2{
     box-shadow: 0 6px 20px rgb(215, 81, 193);
 }
 
-.contain{
+.contain {
+    padding: 25px;
+    background: #11172B;
+    border: 1px solid #45418A;
+    border-radius: 20px;
+    transition: 0.3s ease;
+
     display: flex;
-    gap:20px;
-    flex-wrap: wrap;
-    padding: 20px;
+    flex-direction: column;
+    align-items: stretch;
 }
 
-.frontend{
-    width: 200px;
-    height: 200px;
+/* Frontend heading */
+.contain h1 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* Heading hover */
+.contain h1:hover {
+    color: #A78BFA;
+    text-shadow: 0 0 12px rgba(167, 139, 250, 0.6);
+}
+
+/* Main container hover */
+.contain:hover {
+    border-color: #8B5CF6;
+    box-shadow: 0 0 18px rgba(139, 92, 246, 0.2);
+}
+
+/* Arrange cards side by side */
+.frontend-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Individual technology cards */
+.frontend {
+    width: 170px;
+    height: 170px;
     background: #171D35;
     border: 1px solid #45418A;
     border-radius: 18px;
+
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 15px;
+    gap: 12px;
+
     transition: 0.3s ease;
 }
 
-.frontend img{
-    width: 120px;
-    height: 120px;
+/* Technology logos */
+.frontend img {
+    width: 85px;
+    height: 85px;
     object-fit: contain;
-
 }
 
-.frontend span{
+/* Technology names */
+.frontend span {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 600;
 }
 
+/* Card hover effect */
 .frontend:hover {
-    transform: translateY(-6px);
-    border-color: #8B5CF6;
-    box-shadow: 0 0 15px rgba(139, 92, 246, 0.4);
-}
-
-.contain h3{
-    width: 100%;
-    color: #A78BFA;
-    font-size: 22px;
-    margin: 0 0 10px 0;
+    transform: translateY(-8px) scale(1.04);
+    background: #202747;
+    border-color: #A78BFA;
+    box-shadow: 0 5px 20px rgba(139, 92, 246, 0.3);
 }
