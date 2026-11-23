@@ -283,127 +283,308 @@ h2{
     box-shadow: 0 6px 20px rgb(215, 81, 193);
 }
 
-.contain {
-    padding: 25px;
-    background: #11172B;
-    border: 1px solid #45418A;
-    border-radius: 20px;
-    transition: 0.3s ease;
+.skill {
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 8%;
+    background: linear-gradient(
+        135deg,
+        #080b18,
+        #10152b,
+        #090d1d
+    );
+    box-sizing: border-box;
+    color: white;
+}
 
-    display: flex;
-    flex-direction: column;
+/* ==============================
+   SKILLS HEADING
+============================== */
+
+.skills {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.skills h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.skills p {
+    font-size: 16px;
+    color: #a5acc4;
+    line-height: 1.7;
+}
+
+/* Heading hover effect */
+
+.skills h1:hover {
+    color: #b69aff;
+    text-shadow: 0 0 15px #7956c9;
+    transition: 0.3s ease;
+}
+
+/* ==============================
+   SKILLS CONTAINER
+============================== */
+
+.skills-container {
+    display: grid;
+
+    /* Two boxes in one row */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 35px;
+    width: 100%;
     align-items: stretch;
 }
 
-/* Frontend heading */
-.contain h1 {
-    color: white;
-    font-size: 85px;
-    margin: 0;
-    text-align: center;
-    padding-bottom: 25px;
+/* ==============================
+   INDIVIDUAL CATEGORY BOXES
+============================== */
+
+.contain {
+    background: linear-gradient(
+        145deg,
+        #171d35,
+        #101629
+    );
+
+    border: 1px solid rgba(145, 112, 255, 0.35);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    min-width: 0;
+    box-sizing: border-box;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+
+    transition: all 0.35s ease;
 }
 
-/* Heading hover */
-.contain h1:hover {
-    color: #A78BFA;
-    text-shadow: 0 0 12px rgba(167, 139, 250, 0.6);
-}
+/* Category box hover */
 
-/* Main container hover */
 .contain:hover {
-    border-color: #8B5CF6;
-    box-shadow: 0 0 18px rgba(139, 92, 246, 0.2);
+    transform: translateY(-7px);
+
+    border-color: #a78bfa;
+
+    box-shadow:
+        0 0 15px rgba(139, 92, 246, 0.25),
+        0 0 30px rgba(59, 130, 246, 0.15);
 }
 
-/* Arrange cards side by side */
+/* Category headings */
+
+.contain h2 {
+    font-size: 23px;
+    color: #c4b5fd;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+/* ==============================
+   FRONTEND CARDS
+============================== */
+
 .frontend-cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
     flex-wrap: wrap;
-    width: 100%;
-    margin-top: 10px;
+    gap: 22px;
 }
 
-/* Individual technology cards */
+/* Individual frontend cards */
+
 .frontend {
-    width: 170px;
-    height: 170px;
-    background: #171D35;
-    border: 1px solid #45418A;
-    border-radius: 18px;
+    width: 125px;
+    min-height: 130px;
+
+    background: #202944;
+
+    border: 1px solid rgba(139, 92, 246, 0.3);
+
+    border-radius: 15px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+
     gap: 12px;
 
-    transition: 0.3s ease;
+    padding: 15px;
+    box-sizing: border-box;
+
+    transition: all 0.3s ease;
 }
 
-/* Technology logos */
+/* Frontend logo size */
+
 .frontend img {
-    width: 85px;
-    height: 85px;
+    width: 55px;
+    height: 55px;
     object-fit: contain;
 }
 
-/* Technology names */
+/* Frontend tool names */
+
 .frontend span {
-    color: #FFFFFF;
-    font-size: 19px;
+    color: #ffffff;
+    font-size: 15px;
     font-weight: 600;
+    text-align: center;
 }
 
-/* Card hover effect */
+/* Frontend hover */
+
 .frontend:hover {
     transform: translateY(-8px) scale(1.04);
-    background: #202747;
-    border-color: #A78BFA;
-    box-shadow: 0 5px 20px rgba(139, 92, 246, 0.3);
+
+    background: #292f50;
+
+    border-color: #a78bfa;
+
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
 }
 
+/* ==============================
+   BACKEND CARDS
+============================== */
 
-.skills {
-    width: 100%;
+.backend-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+/* Individual backend cards */
+
+.backend-card {
+    width: 125px;
+    min-height: 130px;
+
+    background: #202944;
+
+    border: 1px solid rgba(59, 130, 246, 0.3);
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 15px;
+    box-sizing: border-box;
+
+    transition: all 0.3s ease;
+}
+
+/* Backend logo size */
+
+.backend-card img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+/* Backend tool names */
+
+.backend-card span {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
     text-align: center;
-    margin-bottom: 50px;
-    padding: 30px 20px;
 }
 
-/* Main heading */
-.skills h1 {
-    color: #b91c1c;
-    font-size: 70px;
-    font-weight: 700;
-    margin-bottom: 15px;
+/* Backend hover */
 
-    transition: 0.3s ease;
+.backend-card:hover {
+    transform: translateY(-8px) scale(1.04);
+
+    background: #293451;
+
+    border-color: #60a5fa;
+
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
 }
 
-/* Heading hover */
-.skills h1:hover {
-    color: #A78BFA;
-    transform: scale(1.05);
-    text-shadow: 0 0 15px rgba(139, 92, 246, 0.6);
+/* ==============================
+   RESPONSIVE DESIGN
+============================== */
+
+/* Tablets */
+
+@media (max-width: 900px) {
+
+    .skill {
+        padding: 80px 5%;
+    }
+
+    .skills-container {
+        gap: 22px;
+    }
+
+    .contain {
+        padding: 22px;
+    }
+
+    .frontend,
+    .backend-card {
+        width: 110px;
+    }
 }
 
-/* Description */
-.skills p {
-    color: #5858af;
-    font-size: 58px;
-    line-height: 1.7;
-    max-width: 600px;
-    margin: 0 auto;
+/* Mobile screens */
 
-    transition: 0.3s ease;
+@media (max-width: 650px) {
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills h1 {
+        font-size: 32px;
+    }
+
+    .contain {
+        padding: 25px 15px;
+    }
+
+    .frontend-cards,
+    .backend-tools {
+        gap: 15px;
+    }
+
 }
 
-/* Description hover */
-.skills p:hover {
-    color: #FFFFFF;
-    transform: translateY(-3px);
+/* Small mobile screens */
+
+@media (max-width: 400px) {
+
+    .frontend,
+    .backend-card {
+        width: 105px;
+        min-height: 120px;
+    }
+
+    .frontend img,
+    .backend-card img {
+        width: 45px;
+        height: 45px;
+    }
+
 }
