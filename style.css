@@ -1110,3 +1110,189 @@ h2{
 
 }
 
+
+/* EXPERIENCE SECTION */
+
+.experience {
+    min-height: 100vh;
+    padding: 120px 8% 80px;
+}
+
+/* HEADING */
+
+.experience-heading {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.experience-heading h1 {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.experience-heading p {
+    font-size: 17px;
+    color: #b5c1d1;
+}
+
+.experience-heading h1::after {
+    content: "";
+    display: block;
+    width: 65px;
+    height: 4px;
+    background: #54b8ff;
+    margin: 15px auto 0;
+    border-radius: 10px;
+}
+
+/* CARD CONTAINER */
+
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* EXPERIENCE CARDS */
+
+.experience-card {
+    background: #17253a;
+    border: 1px solid #315477;
+    border-radius: 18px;
+    padding: 35px;
+    min-height: 350px;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* CARD HOVER */
+
+.experience-card:hover {
+    transform: translateY(-12px) scale(1.03);
+    border-color: #54b8ff;
+    box-shadow: 0 15px 40px rgba(84, 184, 255, 0.22);
+}
+
+/* TOP SECTION */
+
+.experience-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* ICON */
+
+.experience-icon {
+    width: 55px;
+    height: 55px;
+    background: #243e5b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease;
+}
+
+.experience-icon i {
+    font-size: 25px;
+    color: #6cc5ff;
+}
+
+.experience-card:hover .experience-icon {
+    transform: rotate(-8deg) scale(1.12);
+    background: #315477;
+}
+
+/* TAG */
+
+.experience-tag {
+    background: rgba(46, 204, 113, 0.15);
+    color: #55e6a5;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.experience-tag.professional {
+    background: rgba(84, 184, 255, 0.15);
+    color: #6cc5ff;
+}
+
+/* TEXT */
+
+.experience-card h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 12px;
+    transition: 0.3s ease;
+}
+
+.experience-card:hover h2 {
+    color: #6cc5ff;
+}
+
+.experience-card h3 {
+    color: #6cc5ff;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.experience-date {
+    color: #aab6c8;
+    font-size: 14px;
+}
+
+.experience-card hr {
+    border: none;
+    height: 1px;
+    background: #34506c;
+    margin: 22px 0;
+}
+
+.experience-description {
+    color: #d5dfeb;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+/* SKILLS */
+
+.experience-skills {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #aab6c8;
+    font-size: 14px;
+}
+
+.experience-skills i {
+    color: #6cc5ff;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+
+    .experience-container {
+        grid-template-columns: 1fr;
+    }
+
+    .experience {
+        padding: 100px 6% 50px;
+    }
+
+    .experience-heading h1 {
+        font-size: 32px;
+    }
+
+    .experience-card {
+        padding: 25px;
+    }
+}
