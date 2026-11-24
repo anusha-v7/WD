@@ -694,3 +694,142 @@ h2{
     font-size: 50px;
     color: white;
 }
+
+
+/* ============================= */
+/*       PROJECTS SECTION        */
+/* ============================= */
+
+.project-section {
+    padding: 80px 8%;
+    background: linear-gradient(#D96897);
+    color: white;
+}
+
+/* Heading */
+
+.project-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.project-heading h1 {
+    font-size: 38px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.project-heading p {
+    font-size: 16px;
+    color: #b8b8cc;
+}
+
+/* Project Grid */
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Project Cards */
+
+.project-card {
+    background: rgba(100, 110, 170, 0.10);
+    border: 1px solid rgba(140, 140, 220, 0.25);
+    border-radius: 18px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: all 0.3s ease;
+}
+
+/* Project Images */
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+/* Project Content */
+
+.project-content {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+.project-content h2 {
+    font-size: 21px;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.project-content p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #c3c3d6;
+    margin-bottom: 20px;
+}
+
+/* Demo Button */
+
+.project-button {
+    display: inline-block;
+    margin-top: auto;
+    padding: 11px 20px;
+
+    background: linear-gradient(135deg, #7046bd, #4169d8);
+    color: white;
+
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.project-button:hover {
+    background: linear-gradient(135deg, #925bfa, #527fff);
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(130, 90, 255, 0.5);
+}
+
+/* Card Hover */
+
+.project-card:hover {
+    transform: translateY(-8px);
+    border-color: #9665f5;
+    box-shadow: 0 0 20px rgba(130, 90, 255, 0.25);
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.04);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-section {
+        padding: 60px 6%;
+    }
+
+    .project-heading h1 {
+        font-size: 30px;
+    }
+}
