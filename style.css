@@ -1047,7 +1047,7 @@ h2{
 /* Image hover effect */
 
 .project-card:hover img {
-    transform: scale(1.04);
+    transform: scale(1.14);
 }
 
 /* Project titles */
@@ -1099,3 +1099,14 @@ h2{
     border-color: #9b5cff;
     color: #9b5cff; 
     box-shadow: 0 0 15px rgba(155, 92, 255, 0.4);;
+}
+
+.project-content p{
+    font-size: 25px;
+}
+
+.project-card img{
+    height: 400px;
+
+}
+
