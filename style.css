@@ -1008,22 +1008,23 @@ h2{
 /* PROJECT CARDS - INCREASED SIZE */
 
 .projects-container {
-    max-width: 1250px;
+    max-width: 3850px;
     width: 95%;
     margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
-}
+ }
 
 /* Individual project cards */
 
 .project-card {
-    min-height: 520px;
+    min-height: 620px;
     padding: 30px;
     border-radius: 20px;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     overflow: hidden;
+     
 }
 
 /* Card hover effect */
@@ -1084,10 +1085,17 @@ h2{
 }
 
 .project-heading h1{
-    font-size: 105px;
+    font-size: 100px;
 }
 
 .project-heading p{
     font-size: 65px;
     color: white;
 }
+
+.project-heading h1:hover,
+.project-heading p:hover{
+    transform: translateY(-8px) scale(1.05);
+    border-color: #9b5cff;
+    color: #9b5cff; 
+    box-shadow: 0 0 15px rgba(155, 92, 255, 0.4);;
