@@ -1510,16 +1510,19 @@ h2{
 /* Main Heading */
 
 .hackathon-title {
-    font-size: 42px;
+    font-size: 72px;
     font-weight: 800;
     margin-bottom: 65px;
     letter-spacing: 2px;
     transition: 0.4s ease;
+    margin-bottom: 150px;
 }
 
 .hackathon-title:hover {
     transform: scale(1.05);
     text-shadow: 0 0 15px rgba(0, 200, 255, 0.5);
+    font-size: 90px;
+    color: purple;
 }
 
 /* Cards Container */
@@ -1535,8 +1538,8 @@ h2{
 /* Individual Cards */
 
 .hackathon-card {
-    width: 480px;
-    min-height: 650px;
+    width: 580px;
+    height: 900px;
     padding: 25px;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.06);
@@ -1546,6 +1549,7 @@ h2{
     flex-direction: column;
     transition: all 0.4s ease;
     overflow: hidden;
+    background-color: pink;
 }
 
 /* Card Hover Effect */
@@ -1560,7 +1564,7 @@ h2{
 
 .hackathon-image {
     width: 100%;
-    height: 300px;
+    height: 100%;
     overflow: hidden;
     border-radius: 15px;
     margin-bottom: 25px;
@@ -1589,7 +1593,7 @@ h2{
 /* Hackathon Name */
 
 .hackathon-content h2 {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     margin-bottom: 20px;
     transition: 0.3s ease;
@@ -1602,7 +1606,7 @@ h2{
 /* Description */
 
 .hackathon-content p {
-    font-size: 16px;
+    font-size: 25px;
     line-height: 1.8;
     margin-bottom: 25px;
     text-align: center;
