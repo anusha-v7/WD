@@ -1665,3 +1665,149 @@ h2{
         height: 250px;
     }
 }
+
+
+ 
+/* CONNECT SECTION */
+
+.connect {
+    min-height: 650px;
+    padding: 150px 7% 40px;
+    text-align: center;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* HEADING */
+
+.connect h1 {
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    transition: 0.4s ease;
+}
+
+.connect h1:hover {
+    transform: scale(1.08);
+    text-shadow: 0 0 20px rgba(0, 200, 255, 0.6);
+}
+
+/* DESCRIPTION */
+
+.connect-text {
+    font-size: 19px;
+    line-height: 1.9;
+    max-width: 750px;
+    margin: 0 auto 65px;
+}
+
+/* SOCIAL LINKS */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 35px 0 100px;
+}
+
+/* SOCIAL BUTTONS */
+
+.social-icon {
+    width: 180px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 20px;
+    border: 2px solid #00c8ff;
+
+    color: #00c8ff;
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    transition: all 0.4s ease;
+}
+
+/* ICON SIZE */
+
+.social-icon i {
+    font-size: 35px;
+    transition: 0.4s ease;
+}
+
+/* HOVER EFFECT */
+
+.social-icon:hover {
+    transform: translateY(-15px) scale(1.08);
+    background: #00c8ff;
+    color: #000;
+    box-shadow: 0 0 30px rgba(0, 200, 255, 0.6);
+}
+
+.social-icon:hover i {
+    transform: rotate(8deg) scale(1.15);
+}
+
+/* FOOTER */
+
+.connect-footer {
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 30px;
+    font-size: 15px;
+    opacity: 0.85;
+}
+
+.connect-footer a {
+    color: #00c8ff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.connect-footer a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px #00c8ff;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+
+    .connect {
+        min-height: 600px;
+        padding: 100px 5% 30px;
+    }
+
+    .connect h1 {
+        font-size: 32px;
+    }
+
+    .connect-text {
+        font-size: 16px;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 70px;
+    }
+
+    .social-icon {
+        width: 200px;
+        height: 90px;
+    }
+
+    .connect-footer {
+        font-size: 12px;
+    }
+}
