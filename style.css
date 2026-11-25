@@ -1718,8 +1718,8 @@ h2{
 /* SOCIAL BUTTONS */
 
 .social-icon {
-    width: 180px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
 
     display: flex;
     flex-direction: column;
@@ -1742,7 +1742,7 @@ h2{
 /* ICON SIZE */
 
 .social-icon i {
-    font-size: 35px;
+    font-size: 55px;
     transition: 0.4s ease;
 }
 
@@ -1818,4 +1818,13 @@ h2{
 
 .connect h1{
     font-size: 90px;
+}
+
+.connect-text{
+    font-size: 45px;
+}
+
+.connect-footer p{
+    font-size: 40px;
+    
 }
