@@ -1813,18 +1813,25 @@ h2{
 }
 
 .connect{
-    background-color: ;
+    background-color: #1C1C2E;
 }
 
 .connect h1{
     font-size: 90px;
+    color: white;
 }
 
 .connect-text{
     font-size: 45px;
+    color: wheat;
 }
 
 .connect-footer p{
     font-size: 40px;
     
+}
+
+.connect-text:hover{
+    transition: 5.02s ease;
+    font-size: 45px;
 }
