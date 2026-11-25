@@ -1489,3 +1489,11 @@ h2{
     box-shadow: 0 0 15px rgba(155, 92, 255, 0.4);
     transform: scale(1.14);
 }
+
+.certificates-subtitle:hover{
+    font-size: 50px;
+    transform: 1.01s ease;
+    color: #4e0404;
+    box-shadow: 0 0 15px rgba(155, 92, 255, 0.4);
+    font-weight:bold;
+}
